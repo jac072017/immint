@@ -1,0 +1,179 @@
+body, html
+{
+    height:100%;margin:0;
+    font-family: 'Montserrat', sans-serif;
+    font-size:15px;
+ 
+}
+body{
+    display:flex;
+}
+
+nav{
+    width:15%; display:flex; align-items:center; justify-content:center;
+   background-color:black;
+   opacity:0.85;
+}
+
+
+ul{ list-style-type: none; 
+    padding: 3px 3px 3px 3px;
+}
+
+li, a{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+a.one{
+    color:black;
+}
+
+a.two{
+    color:black;
+}
+
+a.three{
+    color:black;
+}
+
+/* Section */
+
+#homepage{
+   width:85%;
+   background-image:url("../img/newyork.jpg");
+   display:flex;justify-content:flex-start; align-items:center;
+   background-size:auto;
+   background-repeat:no-repeat;
+   background-position:center; 
+   }
+   
+   #pg1, #pg2, #pg3{
+       
+       height:auto;width:100%;background-color:rgba(244, 241, 239, 0.75);
+        padding: 10px;
+        font-size:17px;
+        display:flex;
+        justify-content:center;
+   }
+   #pg1a, #pg2a, #pg3a{
+       
+       width:50%;
+       height:100%;
+       text-align:center;
+   }
+
+#overview {
+   width:85%;
+   background-image:url("../img/colorgirl.jpg");
+   display:flex;justify-content:flex-start; align-items:center;
+   background-size:cover;
+   background-repeat:no-repeat;
+   background-position:center; 
+   }
+   
+   #here{
+       width:100%;
+       color:white;
+   }
+
+/* End of Section */
+
+h1 { 
+text-transform: uppercase;
+font-weight: bold; 
+color:black;
+font-size: 45px;
+text-align: center;
+
+} 
+
+p {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+  /* Resources page */
+  
+  #resources {
+   width:40%;
+   background-image:url("../img/nyc.jpg");
+   display:flex;justify-content:flex-start; align-items:center;
+   background-size:cover;
+   background-repeat:no-repeat;
+   background-position:center; 
+   }
+  
+  
+#js{
+    width:45%;
+    height:100%;
+    display:flex;
+    flex-wrap:wrap;
+}
+#js > div{
+    width:50%;
+    height:33%;
+    box-sizing:border-box;
+    border:solid 2px;
+    display:none;
+}
+#img1{
+    
+    background-image:url("../img/image1.jpg");
+     background-size:cover;
+   background-repeat:no-repeat;
+   background-position:center;
+}
+#img2{
+    background-image:url("../img/image2.jpg");
+     background-size:cover;
+   background-repeat:no-repeat;
+   background-position:center;
+}
+#img3{
+    background-image:url("../img/image3.jpg");
+     background-size:cover;
+   background-repeat:no-repeat;
+   background-position:center;
+}
+#img4{
+    background-image:url("../img/image4.jpg");
+     background-size:cover;
+   background-repeat:no-repeat;
+   background-position:center;
+}
+#img5{
+    background-image:url("../img/image5.jpg");
+     background-size:cover;
+   background-repeat:no-repeat;
+   background-position:center;
+   
+}
+#img6{
+    background-image:url("../img/image6.jpg");
+     background-size:cover;
+   background-repeat:no-repeat;
+   background-position:center;
+}
+
+
+
+
+@media only screen and (max-width: 579px)
+{
+   body, nav, #homepage, #overview, #resources{
+       display:flex;
+       flex-direction:column;
+       text-align:center;
+       width:100%;
+       height:auto;
+       float:none
+   }
+   h1, #maintitle{    
+       font-size:30px; 
+       font-family:impact;
+   }
